@@ -1,0 +1,20 @@
+USE [cocina]
+GO
+/****** Object:  StoredProcedure [dbo].[insertarDetaCompra]    Script Date: 01/04/2014 01:10:32 p.m. ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create proc [dbo].[insertarDetaCompra]
+@Codigo varchar(20),
+@Nombre varchar(100),
+@Cantidad numeric(12, 2),
+@UnidadM varchar(10),
+@PrecioC numeric(12, 2),
+@Fecha date,
+@IdCategoria varchar(20),
+@IdGrupo varchar(20),
+@NumFact varchar(20),
+@IdProveedor int
+as
+insert into DetalleCompra values(@Codigo, @Nombre, @Cantidad, @UnidadM, @PrecioC, @Fecha, @IdCategoria, @IdGrupo, @NumFact, @IdProveedor)

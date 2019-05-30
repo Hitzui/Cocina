@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Cocina", "Cocina\Cocina.vbproj", "{260597A0-87BE-47AA-A2C2-C9BCFA5D6791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{260597A0-87BE-47AA-A2C2-C9BCFA5D6791}.Debug|x86.ActiveCfg = Debug|x86
+		{260597A0-87BE-47AA-A2C2-C9BCFA5D6791}.Debug|x86.Build.0 = Debug|x86
+		{260597A0-87BE-47AA-A2C2-C9BCFA5D6791}.Release|x86.ActiveCfg = Release|x86
+		{260597A0-87BE-47AA-A2C2-C9BCFA5D6791}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D80FB130-D7E1-47CB-8E1E-B231F208DC34}
+	EndGlobalSection
+EndGlobal
