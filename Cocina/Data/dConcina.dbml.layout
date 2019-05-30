@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dConcina">
+  <DataContextMoniker Name="/dCocinaDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c824da2d-bbfe-43e7-b51f-04e88fdf8a2e" absoluteBounds="0.75, 1.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/dCocinaDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39a71d8a-bb4e-4d26-993d-e12277ca6704" absoluteBounds="0.765, 1.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
